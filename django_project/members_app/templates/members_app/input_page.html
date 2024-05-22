@@ -1,0 +1,7 @@
+<h1>Input Page</h1>
+<form method="post">
+    {% csrf_token %}
+    <label for="input_field">Your Input:</label>
+    <input type="text" id="input_field" name="input_field">
+    <button type="submit">Submit</button>
+</form>

@@ -1,0 +1,6 @@
+<h1>Session Page</h1>
+    <p>Current User Input: {{ user_input }}</p>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit" name="clear">Clear Session</button>
+    </form>
